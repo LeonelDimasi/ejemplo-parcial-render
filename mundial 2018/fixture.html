@@ -1,0 +1,461 @@
+
+
+  <div class="col-6 formfixture">
+    <form  action="index.html" method="post">
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label >Seleccion</label>
+          <input type="text" class="form-control is-invalid"  id="js-seleccion01" value="Rusia" required>
+        </div>
+        <div class="col-md-1 mb-1">
+          <label>Goles</label><input type="text" class="form-control is-invalid" id="js-goles01" value="0" required >
+        </div>
+        <div class="col-md-1 mb-1">
+          <label>Goles</label><input type="text" class="form-control is-invalid" id="js-goles02" value="0" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label>Seleccion</label>
+          <input type="text" id="js-seleccion02" class="form-control is-invalid" value="Arabia Saudita" required>
+        </div>
+    </div>
+        <button class="btn btn-primary" id="js-load" type="button">load</button>
+        <button class="btn btn-primary" id="js-create"  type="button">Crear </button>
+        <button class="btn btn-primary" id="js-createx3"  type="button">Crear x3 </button>
+        <form  action="index.html" method="delete">
+        <button class="btn btn-primary" id="js-delete" type="button">borrar</button>
+        <input type="text" id="js-id"  name="" value="">
+        <input type="text" id="filtrito"  placeholder="filtro por equipo"name="" value="">
+          </form>
+
+    </form>
+  </div>
+
+<div id="resultado">
+
+</div>
+   <div class="fecha">
+     <h1>grupo A</h1>
+     <table>
+       <tr>
+        <td><img src="images/logos/rusia.png" alt="rus"> </td>
+         <td class="equipos"> Rusia </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> A. Saudita </td>
+         <td><img src="images/logos/arabia.png" alt="ara"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/egipto.png" alt="egi"> </td>
+         <td class="equipos"> Egipto </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Uruguay </td>
+         <td><img src="images/logos/uruguay.png" alt="uru"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/rusia.png" alt="rus"> </td>
+         <td class="equipos"> Rusia </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Egipto </td>
+         <td><img src="images/logos/egipto.png" alt="egi"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/uruguay.png" alt="uruguay"> </td>
+         <td class="equipos"> Uruguay </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td  class="equipos"> A. Saudita </td>
+         <td><img src="images/logos/arabia.png" alt="ara"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/rusia.png" alt="rus"> </td>
+         <td class="equipos"> Rusia </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Uruguay </td>
+         <td><img src="images/logos/uruguay.png" alt="uru"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/arabia.png" alt="ara"> </td>
+         <td class="equipos"> A. Saudita </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Egipto </td>
+         <td><img src="images/logos/egipto.png" alt="egi"></td>
+       </tr>
+     </table>
+   </div>
+   <div class="fecha">
+     <h1>grupo B</h1>
+     <table>
+       <tr>
+        <td><img src="images/logos/marruecos.png" alt="mar"> </td>
+         <td class="equipos"> Marruecos </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Iran </td>
+         <td><img src="images/logos/iran.png" alt="ira"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/portugal.png" alt="por"> </td>
+         <td class="equipos"> Portugal </td>
+         <td class="celda"> - </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> España </td>
+         <td><img src="images/logos/españa.png" alt="esp"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/portugal.png" alt="por"> </td>
+         <td><span class="equipos"> Portugal </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Marruecos </td>
+         <td><img src="images/logos/marruecos.png" alt="mar"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/iran.png" alt="iran"> </td>
+         <td class="equipos"> Iran </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> España </td>
+         <td><img src="images/logos/españa.png" alt="esp"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/iran.png" alt="rus"> </td>
+         <td class="equipos"> Iran </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Portugal </td>
+         <td><img src="images/logos/portugal.png" alt="por"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/españa.png" alt="esp"> </td>
+         <td class="equipos"> España </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Marruecos </td>
+         <td><img src="images/logos/marruecos.png" alt="mar"></td>
+       </tr>
+     </table>
+   </div>
+   <div class="fecha">
+     <h1>grupo C</h1>
+     <table>
+       <tr>
+        <td><img src="images/logos/francia.png" alt="fra"> </td>
+         <td class="equipos"> Francia </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Australia</td>
+         <td><img src="images/logos/australia.png" alt="aus"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/peru.png" alt="per"> </td>
+         <td class="equipos"> Peru </span></td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Dinamarca </td>
+         <td><img src="images/logos/dinamarca.png" alt="din"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/francia.png" alt="fra"> </td>
+         <td class="equipos"> Francia </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Peru </td>
+         <td><img src="images/logos/peru.png" alt="per"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/dinamarca.png" alt="din"> </td>
+         <td class="equipos"> Dinamarca </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Australia </td>
+         <td><img src="images/logos/australia.png" alt="aus"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/dinamarca.png" alt="din"> </td>
+         <td class="equipos"> Dinamarca</td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Francia </td>
+         <td><img src="images/logos/francia.png" alt="fra"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/australia.png" alt="aus"> </td>
+         <td class="equipos"> Australia </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Peru </td>
+         <td><img src="images/logos/peru.png" alt="per"></td>
+       </tr>
+     </table>
+   </div>
+   <div class="fecha">
+     <h1>grupo D</h1>
+     <table>
+       <tr>
+        <td><img src="images/logos/Argentina.png" alt="arg"> </td>
+         <td class="equipos"> Argentina </td>
+         <td class="celda"> 2</td>
+         <td class="celda"> 0</td>
+         <td class="equipos"> Islandia</td>
+         <td><img src="images/logos/islandia.png" alt="isl"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/croacia.png" alt="cro"> </td>
+         <td class="equipos"> Croacia</td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Nigeria </td>
+         <td><img src="images/logos/nigeria.png" alt="nig"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/argentina.png" alt="arg"> </td>
+         <td class="equipos"> Argentina </td>
+         <td class="celda"> 2</td>
+         <td class="celda"> 1</td>
+         <td class="equipos"> Croacia </td>
+         <td><img src="images/logos/croacia.png" alt="cro"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/nigeria.png" alt="nig"> </td>
+         <td class="equipos"> Nigeria </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Islandia </td>
+         <td><img src="images/logos/egipto.png" alt="ara"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/nigeria.png" alt="nig"> </td>
+         <td class="equipos"> Nigeria </td>
+         <td class="celda"> 2</td>
+         <td class="celda"> 1</td>
+         <td class="equipos"> Argentina </td>
+         <td><img src="images/logos/argentina.png" alt="arg"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/islandia.png" alt="isl"> </td>
+         <td class="equipos"> Islandia </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Croacia </td>
+         <td><img src="images/logos/croacia.png" alt="cro"></td>
+       </tr>
+     </table>
+   </div>
+   <div class="fecha">
+     <h1>grupo E</h1>
+     <table>
+       <tr>
+        <td><img src="images/logos/costarica.png" alt="cos"> </td>
+         <td class="equipos"> Costa Rica </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Serbia </td>
+         <td><img src="images/logos/serbia.png" alt="ser"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/brazil.png" alt="bra"> </td>
+         <td class="equipos"> Brasil </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Suiza </td>
+         <td><img src="images/logos/suiza.png" alt="sui"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/brazil.png" alt="bra"> </td>
+         <td class="equipos"> Brasil </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Costa Rica </td>
+         <td><img src="images/logos/costarica.png" alt="cos"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/serbia.png" alt="ser"> </td>
+         <td class="equipos"> Serbia </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Suiza </td>
+         <td><img src="images/logos/suiza.png" alt="sui"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/serbia.png" alt="ser"> </td>
+         <td  class="equipos"> Serbia </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Brasil </td>
+         <td><img src="images/logos/brazil.png" alt="bra"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/suiza.png" alt="sui"> </td>
+         <td class="equipos"> Suiza </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Costa Rica </td>
+         <td><img src="images/logos/costarica.png" alt="cos"></td>
+       </tr>
+     </table>
+   </div>
+   <div class="fecha">
+     <h1>grupo F</h1>
+     <table>
+       <tr>
+        <td><img src="images/logos/alemania.png" alt="ale"> </td>
+         <td class="equipos"> Alemania </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> mexico </td>
+         <td><img src="images/logos/mexico.png" alt="mex"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/suecia.png" alt="sue"> </td>
+         <td class="equipos"> Suecia </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Corea del sur </td>
+         <td><img src="images/logos/corea.png" alt="cor"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/alemania.png" alt="ale"> </td>
+         <td  class="equipos"> Alemania </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Suecia </td>
+         <td><img src="images/logos/suecia.png" alt="sue"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/corea.png" alt="cor"> </td>
+         <td class="equipos"> Corea del sur </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Mexico </td>
+         <td><img src="images/logos/mexico.png" alt="mex"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/corea.png" alt="cor"> </td>
+         <td class="equipos"> Corea del sur </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Alemania </td>
+         <td><img src="images/logos/alemania.png" alt="ale"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/mexico.png" alt="mex"> </td>
+         <td class="equipos"> Mexico </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Suecia </td>
+         <td><img src="images/logos/suecia.png" alt="suecia"></td>
+       </tr>
+     </table>
+   </div>
+   <div class="fecha">
+     <h1>grupo G</h1>
+     <table>
+       <tr>
+        <td><img src="images/logos/rusia.png" alt="rus"> </td>
+         <td class="equipos"> Rusia </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> A. Saudita </td>
+         <td><img src="images/logos/arabia.png" alt="ara"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/belgica.png" alt="bel"> </td>
+         <td class="equipos"> Belgica </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Panama </td>
+         <td><img src="images/logos/panama.png" alt="pan"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/tunez.png" alt="tun"> </td>
+         <td class="equipos"> Tunez </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Inglaterra </td>
+         <td><img src="images/logos/inglaterra.png" alt="ing"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/belgica.png" alt="bel"> </td>
+         <td class="equipos"> Belgica </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos">   Tunez </td>
+         <td><img src="images/logos/tunez.png" alt="tun"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/inglaterra.png" alt="ing"> </td>
+         <td class="equipos"> Inglaterra </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Panama </td>
+         <td><img src="images/logos/panama.png" alt="pan"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/inglaterra.png" alt="ing"> </td>
+         <td class="equipos"> Inglaterra </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Belgica </td>
+         <td><img src="images/logos/belgica.png" alt="bel"></td>
+       </tr>
+     </table>
+   </div>
+   <div class="fecha">
+     <h1>grupo H</h1>
+     <table>
+       <tr>
+        <td><img src="images/logos/polonia.png" alt="pol"> </td>
+         <td  class="equipos"> Polonia </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Senegal </td>
+         <td><img src="images/logos/senegal.png" alt="sen"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/colombia.png" alt="col"> </td>
+         <td class="equipos"> Colombia </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Japon </td>
+         <td><img src="images/logos/japon.png" alt="jap"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/japon.png" alt="jap"> </td>
+         <td class="equipos"> Japon </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Senegal </td>
+         <td><img src="images/logos/senegal.png" alt="sen"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/polonia.png" alt="pol"> </td>
+         <td class="equipos"> Polonia </td>
+         <td class="celda">- </td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Colombia  </td>
+         <td><img src="images/logos/colombia.png" alt="col"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/japon.png" alt="jap"> </td>
+         <td class="equipos"> Japon </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Polonia </td>
+         <td><img src="images/logos/polonia.png" alt="pol"></td>
+       </tr>
+       <tr>
+         <td><img src="images/logos/senegal.png" alt="sen"> </td>
+         <td class="equipos"> Senegal </td>
+         <td class="celda"> -</td>
+         <td class="celda"> -</td>
+         <td class="equipos"> Colombia </td>
+         <td><img src="images/logos/colombia.png" alt="col"></td>
+       </tr>
+     </table>
+   </div>
+  </body>
+</html>
